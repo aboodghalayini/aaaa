@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+    <h1>
+        <titel> Add a Movie to watch List </titel>
+    </h1>
+    <label for="movi"> <i> Movie Titel <i> </label>
+    <input type="text" id="movie" name="movie" placeholder="Enter name movies" >
+    
+    <br>
+    <div id="rad">
+        <p><i> Movie Language</i>
+            <input type="radio" id="num1" name="fan_Language" value="English">
+            <label for="num1">English</label>
+            <input type="radio" id="num2" name="fan_Language" value="Arabic">
+            <label for="num2">العربية</label>
+    </div>
+    </p>
+    <div>
+    <label> <i> Movie Genre <i></label>
+<select id="select">
+    <option value="1">Action</option>
+    <option value="2">Thriller</option>
+    <option value="3">Comedy</option>
+    <option value="4">Animation</option>
+</select>
+
+    </div>
+    <br>
+    <div>
+       
+    <input type="checkbox" id="num3" name="watch" value="movei">
+      <label> <strong>   This movie is R-Rated(18+)  <strong> </label>
+    </div>
+    <br>
+     <input type="button" id="num4" name="watch" value="Add Movie" onclick="fun1()">  
+     <hr>
+</form>
+    <h1>
+     The Watch List 
+    </h1>
+<h1></h1>
+<div>
+    <table id="Table">
+        <tr>
+            <th>#</th> 
+            <th> Movie Titel </th>
+            <th> Movie Language</th>
+            <th> Movie Genre</th>
+            <th> Is it R-Rated?</th>
+            <th> Actions</th>
+        </tr>
+        <tr>
+        </tr>
+    </table>
+</div>
+
+    </body>
+
+
+</html>
